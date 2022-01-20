@@ -9,6 +9,7 @@ from phonenumbers import geocoder
 
 from myNumber import number
 
+#Add your key
 key = ""
 
 samNumber = phonenumbers.parse(number)
