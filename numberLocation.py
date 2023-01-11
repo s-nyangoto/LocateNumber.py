@@ -12,9 +12,9 @@ from myNumber import number
 #Add your key
 key = ""
 
-samNumber = phonenumbers.parse(number)
+someNumber = phonenumbers.parse(number)
 
-yourLocation = geocoder.description_for_number(samNumber, "en")
+yourLocation = geocoder.description_for_number(someNumber, "en")
 print(yourLocation)
 
 # Get service provider
